@@ -1,0 +1,2 @@
+RESULT 1: 0.999969 * 1023.968750 = 1023.937500 (expecting small value) - decimal:  32766
+RESULT 2: 0.930664 * 510.000000 = 474.625000 (expecting small value) - decimal:  15188

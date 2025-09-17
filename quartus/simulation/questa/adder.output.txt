@@ -1,0 +1,2 @@
+RESULT 1: -380.015625 + -259.984375 = -512.000000 (expecting small value) - decimal: -32768
+RESULT 2: -444.015625 + -99.984375 = -512.000000 (expecting small value) - decimal: -32768

@@ -123,10 +123,6 @@
       );
 
    twrom
-     #(
-       .FFT_LENGTH(FFT_LENGTH),
-       .FFT_DW(FFT_DW)
-       )
      utwrom
        (
 	.clk( clk ),

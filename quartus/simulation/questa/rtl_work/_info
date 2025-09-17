@@ -1,488 +1,473 @@
 m255
 K4
 z2
-!s99 nomlopt
-!s11f vlog 2021.2 2021.04, Apr 14 2021
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/sergi/apps/FFT/quartus/simulation/questa
+Z1 dC:/Users/ratas/apps/fft/quartus/simulation/questa
 T_opt
-!s110 1716230309
-V>l2K]bRP@R05hBWh02F6>3
+!s110 1717282468
+VE?TldNK6OXVm25H0WI9=71
 04 9 4 work testbench fast 0
-=1-c8d3ff6a0a84-664b98a5-23-37fc
-!s124 OEM10U26 
+=1-a8a15995788a-665ba6a3-3c7-21b4
+R0
+!s12b OEM100
+!s124 OEM10U126 
 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
-Z1 tCvgOpt 0
+Z2 tCvgOpt 0
 n@_opt
-OL;O;2021.2;73
-vbfp_bitWidthAcc
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1716230308
-!i10b 1
-!s100 a`kDH0clSPGVFOH6@;Ojz1
-IKRb03OM^1C9CEok07_SL;1
-S1
-R0
-Z4 w1716226122
-8C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthAcc.sv
-FC:/Users/sergi/apps/FFT/hdl/bfp_bitWidthAcc.sv
-!i122 16
-L0 2 65
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2021.2;73
-r1
-!s85 0
-31
-Z7 !s108 1716230307.000000
-!s107 C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthAcc.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthAcc.sv|
-!i113 0
-Z8 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z9 !s92 -sv -work work +incdir+C:/Users/sergi/apps/FFT/hdl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-nbfp_bit@width@acc
-vbfp_bitWidthDetector
-R2
-Z10 !s110 1716230307
-!i10b 1
-!s100 [I]c^_aO2Q=k0Wd[13Ch80
-IW@NhNgC4K6b<=U]3ck:L61
-S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthDetector.sv
-FC:/Users/sergi/apps/FFT/hdl/bfp_bitWidthDetector.sv
-!i122 15
-L0 2 43
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthDetector.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/bfp_bitWidthDetector.sv|
-!i113 0
-R8
-R9
-R1
-nbfp_bit@width@detector
-vbfp_maxBitWidth
-R2
-R10
-!i10b 1
-!s100 <8gNU>S[cRkdVoYk<GZ@00
-Ioh1fHh6n2]Mho2;8ehD=S0
-S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/bfp_maxBitWidth.sv
-FC:/Users/sergi/apps/FFT/hdl/bfp_maxBitWidth.sv
-!i122 14
-L0 2 34
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/sergi/apps/FFT/hdl/bfp_maxBitWidth.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/bfp_maxBitWidth.sv|
-!i113 0
-R8
-R9
-R1
-nbfp_max@bit@width
-vbfp_Shifter
-R2
-R10
-!i10b 1
-!s100 9cA3hLPimhRiQXkL3dfJD2
-IE7M]HJZ<c2_4lMJP5L`Q`1
-S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/bfp_Shifter.sv
-FC:/Users/sergi/apps/FFT/hdl/bfp_Shifter.sv
-!i122 13
-L0 2 25
-R5
-R6
-r1
-!s85 0
-31
-R7
-!s107 C:/Users/sergi/apps/FFT/hdl/bfp_Shifter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/bfp_Shifter.sv|
-!i113 0
-R8
-R9
-R1
-nbfp_@shifter
+OL;O;2023.3;77
 vbitReverseCounter
-R2
-R10
+2C:/Users/ratas/apps/fft/hdl/bitReverseCounter.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1717282467
 !i10b 1
 !s100 <MOZUIHb<aIz@JFB^];cb2
-IL5:gMjFzP;hWV1aC5mONN2
+I;OSeZURN17j91N8I^8`Al3
 S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/bitReverseCounter.sv
-FC:/Users/sergi/apps/FFT/hdl/bitReverseCounter.sv
-!i122 12
-L0 2 39
-R5
-R6
+R1
+Z5 w1717260821
+8C:/Users/ratas/apps/fft/hdl/bitReverseCounter.sv
+FC:/Users/ratas/apps/fft/hdl/bitReverseCounter.sv
+!i122 15
+Z6 L0 2 39
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2023.3;77
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/sergi/apps/FFT/hdl/bitReverseCounter.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/bitReverseCounter.sv|
+Z9 !s108 1717282467.000000
+!s107 C:/Users/ratas/apps/fft/hdl/bitReverseCounter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/bitReverseCounter.sv|
 !i113 0
-R8
-R9
-R1
+Z10 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work work +incdir+C:/Users/ratas/apps/fft/hdl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
 nbit@reverse@counter
 vbutterflyCore
-R2
-Z11 !s110 1716230306
-!i10b 1
-!s100 :1WGXETCcV2=L^kmSl]_l1
-ILJ5?MI`Sdh0z`DBSkml1`2
-S1
-R0
+2C:/Users/ratas/apps/fft/hdl/butterflyCore.sv
+R3
 R4
-8C:/Users/sergi/apps/FFT/hdl/butterflyCore.sv
-FC:/Users/sergi/apps/FFT/hdl/butterflyCore.sv
-!i122 11
-L0 2 211
-R5
-R6
+!i10b 1
+!s100 RToCXXUzNne3G1>n6F>G=3
+IGJ7:ZaE<Lch;>`>Q^C6?c2
+S1
+R1
+w1717261481
+8C:/Users/ratas/apps/fft/hdl/butterflyCore.sv
+FC:/Users/ratas/apps/fft/hdl/butterflyCore.sv
+!i122 14
+L0 2 169
+R7
+R8
 r1
 !s85 0
 31
-Z12 !s108 1716230306.000000
-!s107 C:/Users/sergi/apps/FFT/hdl/butterflyCore.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/butterflyCore.sv|
-!i113 0
-R8
 R9
-R1
+!s107 C:/Users/ratas/apps/fft/hdl/butterflyCore.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/butterflyCore.sv|
+!i113 0
+R10
+R11
+R2
 nbutterfly@core
 vbutterflyUnit
-R2
-R11
-!i10b 1
-!s100 B8`[P@1GR2Rm`RAEIVdd42
-I6YNfljWI[>`8RoSz`Ul^I2
-S1
-R0
+2C:/Users/ratas/apps/fft/hdl/butterflyUnit.sv
+R3
 R4
-8C:/Users/sergi/apps/FFT/hdl/butterflyUnit.sv
-FC:/Users/sergi/apps/FFT/hdl/butterflyUnit.sv
-!i122 10
-L0 2 219
-R5
-R6
+!i10b 1
+!s100 l[JVOd?Z>N0LLEE<QC8@=1
+IN_Bg^=Lih_k]zZ4TTJ=Ac0
+S1
+R1
+w1717264955
+8C:/Users/ratas/apps/fft/hdl/butterflyUnit.sv
+FC:/Users/ratas/apps/fft/hdl/butterflyUnit.sv
+!i122 13
+L0 2 181
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/butterflyUnit.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/butterflyUnit.sv|
-!i113 0
-R8
 R9
-R1
+!s107 C:/Users/ratas/apps/fft/hdl/butterflyUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/butterflyUnit.sv|
+!i113 0
+R10
+R11
+R2
 nbutterfly@unit
 vdpram
-R2
+Z12 2C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/testbench.sv
 R3
-!i10b 1
-!s100 ?dCSdNWjP8a10[V_3elS]0
-I>mEIH9OV]Z^kMzR56K4LZ2
-S1
-R0
 R4
-8C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/dpram.sv
-FC:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/dpram.sv
-!i122 17
+!i10b 1
+!s100 60]PAS91:TY>d[;Glm8zD0
+I8C2=89Y5hR;XmmM936bTP3
+S1
+R1
+Z13 w1717281810
+FC:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/dpram.sv
+Z14 FC:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/testbench.sv
+!i122 16
 L0 5 38
-R5
-R6
+R7
+R8
 r1
 !s85 0
 31
-Z13 !s108 1716230308.000000
-Z14 !s107 C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/simtask.sv|C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/header.sv|C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/twrom.sv|C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/dpram.sv|C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/testbench.sv|
-Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit|C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/testbench.sv|
+R9
+Z15 !s107 C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/simtask.sv|C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/header.sv|C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/twrom.sv|C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/dpram.sv|C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/testbench.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit|C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/testbench.sv|
 !i113 0
-R8
-Z16 !s92 -sv -work work +incdir+C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vfftAddressGenerator
+R10
+Z17 !s92 -sv -work work +incdir+C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-R11
+vfftAddressGenerator
+2C:/Users/ratas/apps/fft/hdl/fftAddressGenerator.sv
+R3
+R4
 !i10b 1
 !s100 Gn^>_HQ<0nDI^3^1gmWk=3
-IZOnL1aM<T]f;l[iEm]:D90
+I5n@DE732R?e6CYk:V:A@i0
 S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/fftAddressGenerator.sv
-FC:/Users/sergi/apps/FFT/hdl/fftAddressGenerator.sv
-!i122 9
+R1
+R5
+8C:/Users/ratas/apps/fft/hdl/fftAddressGenerator.sv
+FC:/Users/ratas/apps/fft/hdl/fftAddressGenerator.sv
+!i122 12
 L0 3 116
-R5
-R6
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/fftAddressGenerator.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/fftAddressGenerator.sv|
-!i113 0
-R8
 R9
-R1
-nfft@address@generator
-vR2FFT
-R2
+!s107 C:/Users/ratas/apps/fft/hdl/fftAddressGenerator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/fftAddressGenerator.sv|
+!i113 0
+R10
 R11
+R2
+nfft@address@generator
+vfixed_point_adder
+2C:/Users/ratas/apps/fft/hdl/fixed_point_adder.v
+Z18 !s110 1717282466
 !i10b 1
-!s100 YFV[WcCGkef3Y6ZNVD_FN1
-IB@T_5eTCA0838804z5L4?0
-S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/R2FFT.sv
-FC:/Users/sergi/apps/FFT/hdl/R2FFT.sv
-!i122 8
-L0 7 542
-R5
+!s100 O[V^NHPG1zz:]V]>5a5`H2
+Ig0Mn>T53Y9cTKW56iZE^D0
+R1
+w1717281490
+8C:/Users/ratas/apps/fft/hdl/fixed_point_adder.v
+FC:/Users/ratas/apps/fft/hdl/fixed_point_adder.v
+!i122 2
 R6
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/R2FFT.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/R2FFT.sv|
+Z19 !s108 1717282466.000000
+!s107 C:/Users/ratas/apps/fft/hdl/fixed_point_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/fixed_point_adder.v|
 !i113 0
-R8
-R9
+Z20 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z21 !s92 -vlog01compat -work work +incdir+C:/Users/ratas/apps/fft/hdl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfixed_point_multiplier
+2C:/Users/ratas/apps/fft/hdl/fixed_point_multiplier.v
+R18
+!i10b 1
+!s100 5aDAAiLg0`eHf^1jH:1ij2
+I^>A:HaSA0SUUcl^Y28iMP1
 R1
+w1717245283
+8C:/Users/ratas/apps/fft/hdl/fixed_point_multiplier.v
+FC:/Users/ratas/apps/fft/hdl/fixed_point_multiplier.v
+!i122 1
+L0 2 60
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ratas/apps/fft/hdl/fixed_point_multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/fixed_point_multiplier.v|
+!i113 0
+R20
+R21
+R2
+vfixed_point_truncation_adder
+2C:/Users/ratas/apps/fft/hdl/fixed_point_truncation_adder.v
+R18
+!i10b 1
+!s100 9SHkoKmXWDGgRbOU4aD7e1
+I4TE=fFAM[98QOZhS0@8@=2
+R1
+w1717281600
+8C:/Users/ratas/apps/fft/hdl/fixed_point_truncation_adder.v
+FC:/Users/ratas/apps/fft/hdl/fixed_point_truncation_adder.v
+!i122 0
+L0 2 41
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ratas/apps/fft/hdl/fixed_point_truncation_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/fixed_point_truncation_adder.v|
+!i113 0
+R20
+R21
+R2
+vR2FFT
+2C:/Users/ratas/apps/fft/hdl/R2FFT.sv
+R3
+R4
+!i10b 1
+!s100 VIj9BcKUc[0WiX]zY:dFi2
+ITJkFX3>hf00MI4GH:5jg=0
+S1
+R1
+w1717261320
+8C:/Users/ratas/apps/fft/hdl/R2FFT.sv
+FC:/Users/ratas/apps/fft/hdl/R2FFT.sv
+!i122 11
+L0 7 488
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ratas/apps/fft/hdl/R2FFT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/R2FFT.sv|
+!i113 0
+R10
+R11
+R2
 n@r2@f@f@t
 vr2fft_impl
-R2
-Z17 !s110 1716230305
+2C:/Users/ratas/apps/fft/quartus/r2fft_impl.sv
+R3
+R18
 !i10b 1
 !s100 oWC]VHz84KoEl<d[2bK]51
-I>?Ul?GnzU4fVz;i80L66l1
+I8GZUXb[jR9mkQCz>;:71K1
 S1
-R0
-w1716227877
-8C:/Users/sergi/apps/FFT/quartus/r2fft_impl.sv
-FC:/Users/sergi/apps/FFT/quartus/r2fft_impl.sv
-!i122 2
+R1
+R5
+8C:/Users/ratas/apps/fft/quartus/r2fft_impl.sv
+FC:/Users/ratas/apps/fft/quartus/r2fft_impl.sv
+!i122 5
 L0 2 188
-R5
-R6
+R7
+R8
 r1
 !s85 0
 31
-Z18 !s108 1716230305.000000
-!s107 C:/Users/sergi/apps/FFT/quartus/r2fft_impl.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/quartus|C:/Users/sergi/apps/FFT/quartus/r2fft_impl.sv|
+R19
+!s107 C:/Users/ratas/apps/fft/quartus/r2fft_impl.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/quartus|C:/Users/ratas/apps/fft/quartus/r2fft_impl.sv|
 !i113 0
-R8
-!s92 -sv -work work +incdir+C:/Users/sergi/apps/FFT/quartus -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vradix2Butterfly
+R10
+!s92 -sv -work work +incdir+C:/Users/ratas/apps/fft/quartus -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-R11
-!i10b 1
-!s100 zeP[79M4bX]?YaVb6a2kG1
-IO>a8D7o]V3YOd;?9^b_>E1
-S1
-R0
+vradix2Butterfly
+2C:/Users/ratas/apps/fft/hdl/radix2Butterfly.sv
+R3
 R4
-8C:/Users/sergi/apps/FFT/hdl/radix2Butterfly.sv
-FC:/Users/sergi/apps/FFT/hdl/radix2Butterfly.sv
-!i122 7
-L0 2 243
-R5
-R6
+!i10b 1
+!s100 WD0]LX5OQU_TE?l9P?aa_1
+IamDLVJP_agnOjN]BnNL0o2
+S1
+R1
+w1717281595
+8C:/Users/ratas/apps/fft/hdl/radix2Butterfly.sv
+FC:/Users/ratas/apps/fft/hdl/radix2Butterfly.sv
+!i122 10
+L0 7 212
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/radix2Butterfly.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/radix2Butterfly.sv|
-!i113 0
-R8
 R9
-R1
+!s107 C:/Users/ratas/apps/fft/hdl/radix2Butterfly.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/radix2Butterfly.sv|
+!i113 0
+R10
+R11
+R2
 nradix2@butterfly
 vramPipelineBridge
-R2
-R11
+2C:/Users/ratas/apps/fft/hdl/ramPipelineBridge.sv
+R3
+R4
 !i10b 1
 !s100 dXPY9aYkO@im9Jf@k@91F1
-IdjE[b4_cUSAB6Aa;oW>1Z0
+Il=WATAXToUhaYQVRgZH=00
 S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/ramPipelineBridge.sv
-FC:/Users/sergi/apps/FFT/hdl/ramPipelineBridge.sv
-!i122 6
-L0 2 86
+R1
 R5
-R6
+8C:/Users/ratas/apps/fft/hdl/ramPipelineBridge.sv
+FC:/Users/ratas/apps/fft/hdl/ramPipelineBridge.sv
+!i122 9
+L0 2 86
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/ramPipelineBridge.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/ramPipelineBridge.sv|
-!i113 0
-R8
 R9
-R1
+!s107 C:/Users/ratas/apps/fft/hdl/ramPipelineBridge.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/ramPipelineBridge.sv|
+!i113 0
+R10
+R11
+R2
 nram@pipeline@bridge
 vreadBusMux
-R2
-R11
+2C:/Users/ratas/apps/fft/hdl/readBusMux.sv
+R3
+R4
 !i10b 1
 !s100 H5K7CKG^4CZW@gSZ=@[1n0
-Ic9;c@0A?c[BG6^iY[E31>3
+IIG8i4LOQzO@U243BI2j003
 S1
-R0
-R4
-8C:/Users/sergi/apps/FFT/hdl/readBusMux.sv
-FC:/Users/sergi/apps/FFT/hdl/readBusMux.sv
-!i122 5
-L0 2 56
+R1
 R5
-R6
+8C:/Users/ratas/apps/fft/hdl/readBusMux.sv
+FC:/Users/ratas/apps/fft/hdl/readBusMux.sv
+!i122 8
+L0 2 56
+R7
+R8
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/sergi/apps/FFT/hdl/readBusMux.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/readBusMux.sv|
+R19
+!s107 C:/Users/ratas/apps/fft/hdl/readBusMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/readBusMux.sv|
 !i113 0
-R8
-R9
-R1
+R10
+R11
+R2
 nread@bus@mux
 vtestbench
-R2
+R12
 R3
+R4
 !i10b 1
-!s100 mR8XUj6B[DU:GQ[Q7FRha3
-IVPhDinXiR44@iN`HogQjA3
+!s100 QmLQ4LLm@]lHLPR4fej:U1
+IYMBQTnFhKTlg5]bHlAi3U1
 S1
-R0
-w1716230284
-8C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/testbench.sv
-FC:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/testbench.sv
-FC:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/header.sv
-FC:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/simtask.sv
-!i122 17
-L0 7 347
-R5
-R6
-r1
-!s85 0
-31
+R1
 R13
+8C:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/testbench.sv
 R14
-R15
-!i113 0
+FC:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/header.sv
+FC:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/simtask.sv
+!i122 16
+L0 7 344
+R7
 R8
-R16
-R1
-vtwiddleFactorRomBridge
-R2
-R17
-!i10b 1
-!s100 gJT3fchoZ0P8TVRA8YCTS0
-ITfEAX1AcgzXkNdTF<]FFi1
-S1
-R0
-w1716228075
-8C:/Users/sergi/apps/FFT/hdl/twiddleFactorRomBridge.sv
-FC:/Users/sergi/apps/FFT/hdl/twiddleFactorRomBridge.sv
-!i122 4
-L0 1 104
-R5
-R6
 r1
 !s85 0
 31
-R18
-!s107 C:/Users/sergi/apps/FFT/hdl/twiddleFactorRomBridge.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/twiddleFactorRomBridge.sv|
-!i113 0
-R8
 R9
+R15
+R16
+!i113 0
+R10
+R17
+R2
+vtwiddleFactorRomBridge
+2C:/Users/ratas/apps/fft/hdl/twiddleFactorRomBridge.sv
+R3
+R18
+!i10b 1
+!s100 AMY`6CBNTFgHIkGU1]E:_2
+ILKg^=oLMTj33dTEPdzji00
+S1
 R1
+w1717282413
+8C:/Users/ratas/apps/fft/hdl/twiddleFactorRomBridge.sv
+FC:/Users/ratas/apps/fft/hdl/twiddleFactorRomBridge.sv
+!i122 7
+L0 1 104
+R7
+R8
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/ratas/apps/fft/hdl/twiddleFactorRomBridge.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/twiddleFactorRomBridge.sv|
+!i113 0
+R10
+R11
+R2
 ntwiddle@factor@rom@bridge
 vtwrom
-R2
+R12
 R3
-!i10b 1
-!s100 UBTP6bJ<JdKbaKH>YUJjl1
-I_eczIEmzIINj]j[U4If<A0
-S1
-R0
 R4
-8C:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/twrom.sv
-FC:/Users/sergi/apps/FFT/quartus/../test/1024pt_16bit/../include/twrom.sv
-!i122 17
-L0 2 32
-R5
-R6
+!i10b 1
+!s100 eRonTQLRO`B0nf>6@?7;K2
+IJj0no5Q`<PoB3hMj6N;BU3
+S1
+R1
+R13
+FC:/Users/ratas/apps/fft/quartus/../test/1024pt_16bit/../include/twrom.sv
+R14
+!i122 16
+L0 1 272
+R7
+R8
 r1
 !s85 0
 31
-R13
-R14
+R9
 R15
-!i113 0
-R8
 R16
-R1
-vwriteBusMux
-R2
+!i113 0
+R10
 R17
+R2
+vwriteBusMux
+2C:/Users/ratas/apps/fft/hdl/writeBusMux.sv
+R3
+R18
 !i10b 1
 !s100 7b25L?dTScXHEoVZlc3fc2
-IFBH_Z9ICz8Q:DGXzZYFJf3
+I_M75DZN]Df2NNhK^G:GOd2
 S1
-R0
-w1716228142
-8C:/Users/sergi/apps/FFT/hdl/writeBusMux.sv
-FC:/Users/sergi/apps/FFT/hdl/writeBusMux.sv
-!i122 3
-L0 2 59
+R1
 R5
-R6
+8C:/Users/ratas/apps/fft/hdl/writeBusMux.sv
+FC:/Users/ratas/apps/fft/hdl/writeBusMux.sv
+!i122 6
+L0 2 59
+R7
+R8
 r1
 !s85 0
 31
-R18
-!s107 C:/Users/sergi/apps/FFT/hdl/writeBusMux.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/sergi/apps/FFT/hdl|C:/Users/sergi/apps/FFT/hdl/writeBusMux.sv|
+R19
+!s107 C:/Users/ratas/apps/fft/hdl/writeBusMux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ratas/apps/fft/hdl|C:/Users/ratas/apps/fft/hdl/writeBusMux.sv|
 !i113 0
-R8
-R9
-R1
+R10
+R11
+R2
 nwrite@bus@mux

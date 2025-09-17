@@ -21,6 +21,8 @@ module testbench;
    integer fftBfpExp;
    integer output_file;
 
+   localparam EXP = 0.0625;
+
    initial begin
       rst_reg = 1;
       autorun_reg = 1;
@@ -58,13 +60,12 @@ module testbench;
       $fwrite(output_file, "FFT RESULT:\n");
       for ( i = 0; i < FFT_LENGTH; i++ ) begin
 	      $fwrite(output_file,  "REAL: %f, IMAGINARY: %f, MAGNITUDE: %f\n", 
-		   resultReal[i] * (2.0**(fftBfpExp)), 
-		   resultImag[i] * (2.0**(fftBfpExp)),
+		   resultReal[i] * EXP, 
+		   resultImag[i] * EXP,
 		   $sqrt(
-			 1.0 * resultReal[i] * resultReal[i] + 
-			 1.0 * resultImag[i] * resultImag[i]
-			 ) 
-		   * (2.0**(fftBfpExp))
+			 1.0 * resultReal[i] * resultReal[i] * EXP * EXP + 
+			 1.0 * resultImag[i] * resultImag[i] * EXP * EXP
+			 )
 		   );
       end
       $fclose(output_file);
